@@ -4,5 +4,13 @@
              x:Class="BatataDoce.MainPage"
              Shell.NavBarIsVisible="false">
 
+   <Grid>
+
+        <Image Source="inicio.jpg"
+                Aspect="AspectFit"/>
+
+
+   </Grid>
+
 
 </ContentPage>
