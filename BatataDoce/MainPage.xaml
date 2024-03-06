@@ -2,12 +2,48 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BatataDoce.MainPage"
-             Shell.NavBarIsVisible="false">
+             Shell.NavBarIsVisible="false"
+             BackgroundColor="#00001c">
 
    <Grid>
 
         <Image Source="inicio.jpg"
-                Aspect="AspectFit"/>
+                Aspect="AspectFit"
+                VerticalOptions="Start"
+                Margin="0,60,0,0"/>
+
+        <Button Text="Inicio"
+                FontFamily="Rogerio"
+                Clicked="QuandoClicarNoBotao"
+                Margin="0,200,0,0"
+                HeightRequest="60"
+                BackgroundColor="#1b6689"/>
+
+        <Button Text="Sobre"
+                FontFamily="Rogerio"
+                Clicked="QuandoClicarNoBotaoSobre"
+                Margin="0,350,0,0"
+                HeightRequest="60"
+                BackgroundColor="#1f374c"/>
+
+        <Button Text="Créditos"
+                FontFamily="Rogerio"
+                Clicked="QuandoClicarNoBotao"
+                Margin="0,500,0,0"
+                HeightRequest="60"
+                BackgroundColor="#1f374c"/>
+
+        <Frame x:Name="Sobre"
+                IsVisible="false"
+                BackgroundColor="#1f374c">
+
+        <Button Text="Voltar"
+                FontFamily="Rogerio"
+                Clicked="QuandoClicarNoBotaoVoltar"
+                Margin="0,500,0,0"
+                HeightRequest="60"
+                BackgroundColor="#1b6689"/>
+        </Frame>
 
 
    </Grid>
