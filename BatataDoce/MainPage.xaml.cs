@@ -24,5 +24,15 @@ public partial class MainPage : ContentPage
 		Sobre.IsVisible=false;
 	}
 
+		void QuandoClicarNoBotaoCreditos(object sender, EventArgs args)
+	{
+		Creditos.IsVisible=true;
+	}
+
+		void QuandoClicarNoBotaoVoltar1(object sender, EventArgs args)
+	{
+		Creditos.IsVisible=false;
+	}
+
 }
 

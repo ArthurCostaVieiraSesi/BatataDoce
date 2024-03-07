@@ -28,7 +28,7 @@
 
         <Button Text="Créditos"
                 FontFamily="Rogerio"
-                Clicked="QuandoClicarNoBotao"
+                Clicked="QuandoClicarNoBotaoCreditos"
                 Margin="0,500,0,0"
                 HeightRequest="60"
                 BackgroundColor="#1f374c"/>
@@ -53,6 +53,29 @@
         <Button Text="Voltar"
                 FontFamily="Rogerio"
                 Clicked="QuandoClicarNoBotaoVoltar"
+                Margin="0,500,0,0"
+                HeightRequest="60"
+                BackgroundColor="#1b6689"/>
+
+        </Grid>
+
+        </Frame>
+
+        <Frame x:Name="Creditos"
+                IsVisible="false"
+                BackgroundColor="#000027">
+
+        <Grid>
+
+        <Label Text="O jogo foi escrito, programado, criado, produzido, imaginado e feito inteiramente por Arthur Costa. Porém, vale destacar que o Professor Thiago auxiliou ensinando a programação e no auxilio emocional. (Também teve a Amabily que ficou dando pitaco durante o processo inteiro!!)"
+                FontFamily="Rogerio"
+                TextColor="White"
+                VerticalOptions="Start"
+                Margin="0,15,0,0"/>
+
+        <Button Text="Voltar"
+                FontFamily="Rogerio"
+                Clicked="QuandoClicarNoBotaoVoltar1"
                 Margin="0,500,0,0"
                 HeightRequest="60"
                 BackgroundColor="#1b6689"/>
