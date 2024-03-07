@@ -35,7 +35,20 @@
 
         <Frame x:Name="Sobre"
                 IsVisible="false"
-                BackgroundColor="#1f374c">
+                BackgroundColor="#000027">
+
+        <Grid>
+
+        <Image Source="sobre.jpg"
+                Aspect="AspectFit"
+                VerticalOptions="Start"
+                Margin="0,30,0,0"/>
+
+        <Label Text="Em uma noite de lua cheia, uma pequena vila medieval se torna vitima do ataque de um lobisomem. Agora o seu papel, como um caçador de monstros que foi contratado pela vila, é investigar os ataques e solucionar este misterio. Para que todos possam dormir em paz."
+                FontFamily="Rogerio"
+                TextColor="White"
+                VerticalOptions="Start"
+                Margin="0,375,0,0"/>
 
         <Button Text="Voltar"
                 FontFamily="Rogerio"
@@ -43,6 +56,9 @@
                 Margin="0,500,0,0"
                 HeightRequest="60"
                 BackgroundColor="#1b6689"/>
+
+        </Grid>
+
         </Frame>
 
 
