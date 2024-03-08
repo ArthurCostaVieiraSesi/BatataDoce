@@ -5,4 +5,40 @@
              Shell.NavBarIsVisible="false"
              BackgroundColor="#00001c">
 
+    <Grid>
+        
+        <Image Source="praca.jpg"
+                Aspect="AspectFit"
+                VerticalOptions="Start"
+                Margin="0,60,0,0"/>
+
+        <Label x:Name="Descricao"
+                Text="Teste de texto para ver se funciona."
+                FontFamily="Rogerio"
+                TextColor="White"
+                VerticalOptions="Start"
+                BackgroundColor="#1f374c"
+                HeightRequest="100"
+                Margin="0,400,0,0"/>
+
+        <Button Text="Proximo"
+                FontFamily="Rogerio"
+                Margin="0,385,0,0"
+                HeightRequest="60"
+                BackgroundColor="#1b6689"/>
+
+        <Button Text="Resposta1"
+                FontFamily="Rogerio"
+                Margin="0,385,0,0"
+                HeightRequest="60"
+                BackgroundColor="#1b6689"/>
+
+        <Button Text="Resposta2"
+                FontFamily="Rogerio"
+                Margin="0,525,0,0"
+                HeightRequest="60"
+                BackgroundColor="#1b6689"/>
+
+    </Grid>
+
 </ContentPage>
