@@ -16,6 +16,8 @@
                 Text="Teste de texto para ver se funciona."
                 FontFamily="Rogerio"
                 TextColor="White"
+                Padding="5,20,5,0"
+                HorizontalTextAlignment="Center"
                 VerticalOptions="Start"
                 BackgroundColor="#1f374c"
                 HeightRequest="100"
@@ -27,17 +29,6 @@
                 HeightRequest="60"
                 BackgroundColor="#1b6689"/>
 
-        <Button Text="Resposta1"
-                FontFamily="Rogerio"
-                Margin="0,385,0,0"
-                HeightRequest="60"
-                BackgroundColor="#1b6689"/>
-
-        <Button Text="Resposta2"
-                FontFamily="Rogerio"
-                Margin="0,525,0,0"
-                HeightRequest="60"
-                BackgroundColor="#1b6689"/>
 
     </Grid>
 
