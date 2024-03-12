@@ -9,4 +9,9 @@ public partial class GamePage : ContentPage
 		InitializeComponent();
 	}
 
+	void QuandoClicarNoBotaoProximo(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new GamePage1();
+	}
+
 }
