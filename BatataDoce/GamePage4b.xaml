@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BatataDoce.GamePage1"
+             x:Class="BatataDoce.GamePage4b"
              Shell.NavBarIsVisible="false"
              BackgroundColor="#00001c">
 
     <Grid>
         
-        <Image Source="floresta.jpg"
+        <Image Source="praca.jpg"
                 Aspect="AspectFit"
                 VerticalOptions="Start"
                 Margin="0,60,0,0"/>
@@ -15,12 +15,19 @@
         <Image Source="roberto.png"
                 Aspect="AspectFit"
                 VerticalOptions="Start"
-                Margin="0,60,0,0"/>
+                HeightRequest="300"
+                Margin="0,180,220,0"/>
+
+        <Image Source="bia.png"
+                Aspect="AspectFit"
+                VerticalOptions="Start"
+                HeightRequest="300"
+                Margin="220,180,0,0"/>
 
         <Label x:Name="Descricao"
-                Text="Seu nome é Roberto, você está passando por uma floresta escura com uma breve iluminação palída feita pela luz da lua. Você caminha lentamente até finalmente chegar na vila."
+                Text="Bia: Beleza então! Vamos logo que o caminho é um pouco longo..."
                 FontFamily="Rogerio"
-                TextColor="White"
+                TextColor="#ee5882"
                 Padding="5,20,5,0"
                 HorizontalTextAlignment="Center"
                 VerticalOptions="Start"
@@ -30,7 +37,6 @@
 
         <Button Text="Proximo"
                 FontFamily="Rogerio"
-                Clicked="QuandoClicarNoBotaoProximo1"
                 Margin="0,385,0,0"
                 HeightRequest="60"
                 BackgroundColor="#1b6689"/>

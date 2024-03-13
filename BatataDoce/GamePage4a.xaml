@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BatataDoce.GamePage1"
+             x:Class="BatataDoce.GamePage4a"
              Shell.NavBarIsVisible="false"
              BackgroundColor="#00001c">
 
     <Grid>
         
-        <Image Source="floresta.jpg"
+        <Image Source="loja.jpg"
                 Aspect="AspectFit"
                 VerticalOptions="Start"
                 Margin="0,60,0,0"/>
@@ -15,23 +15,37 @@
         <Image Source="roberto.png"
                 Aspect="AspectFit"
                 VerticalOptions="Start"
-                Margin="0,60,0,0"/>
+                HeightRequest="300"
+                Margin="0,180,220,0"/>
+
+        <Image Source="samanta.png"
+                Aspect="AspectFit"
+                VerticalOptions="Start"
+                HeightRequest="300"
+                Margin="220,180,0,0"/>
 
         <Label x:Name="Descricao"
-                Text="Seu nome é Roberto, você está passando por uma floresta escura com uma breve iluminação palída feita pela luz da lua. Você caminha lentamente até finalmente chegar na vila."
+                Text="Samanta: Boa noite, bem vindo a nossa loja! O que precisa? O nosso estoque está meio escasso hoje, porém temos: Lanternas, comida de todos os tipos, bugigangas diferenciadas e até mesmo um machado!"
                 FontFamily="Rogerio"
-                TextColor="White"
-                Padding="5,20,5,0"
+                TextColor="#b070ff"
+                Padding="5,10,5,0"
                 HorizontalTextAlignment="Center"
                 VerticalOptions="Start"
                 BackgroundColor="#1f374c"
                 HeightRequest="100"
                 Margin="0,400,0,0"/>
 
-        <Button Text="Proximo"
+        <Button Text="Vou querer levar a lanterna."
                 FontFamily="Rogerio"
-                Clicked="QuandoClicarNoBotaoProximo1"
+                Clicked="Lanterna"
                 Margin="0,385,0,0"
+                HeightRequest="60"
+                BackgroundColor="#1b6689"/>
+
+        <Button Text="Vou querer levar o machado."
+                FontFamily="Rogerio"
+                Clicked="Machado"
+                Margin="0,520,0,0"
                 HeightRequest="60"
                 BackgroundColor="#1b6689"/>
 
