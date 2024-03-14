@@ -9,4 +9,9 @@ public partial class GamePage4b : ContentPage
 		InitializeComponent();
 	}
 
+	void proximo5(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new GamePage5();
+	}
+
 }

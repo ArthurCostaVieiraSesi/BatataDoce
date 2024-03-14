@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BatataDoce.GamePage4c"
+             x:Class="BatataDoce.GamePage6"
              Shell.NavBarIsVisible="false"
              BackgroundColor="#00001c">
 
     <Grid>
         
-        <Image Source="loja.jpg"
+        <Image Source="casa.jpg"
                 Aspect="AspectFit"
                 VerticalOptions="Start"
                 Margin="0,60,0,0"/>
@@ -34,16 +34,10 @@
                 HeightRequest="300"
                 Margin="0,180,220,0"/>
 
-        <Image Source="bia.png"
-                Aspect="AspectFit"
-                VerticalOptions="Start"
-                HeightRequest="300"
-                Margin="220,180,0,0"/>
-
         <Label x:Name="Descricao"
-                Text="Bia: Comprou o que precisa? Ótimo, agora podemos ir para a cena do crime, o caminho é longo então melhor nos apressarmos."
+                Text="Quando você chega no quarto, você vê o corpo morto no chão e também é possivel ver a janela quebrada de onde, segundo Bia, o lobisomem atacou. O que investigar primeiro?"
                 FontFamily="Rogerio"
-                TextColor="#ee5882"
+                TextColor="White"
                 Padding="5,20,5,0"
                 HorizontalTextAlignment="Center"
                 VerticalOptions="Start"
@@ -51,10 +45,15 @@
                 HeightRequest="100"
                 Margin="0,400,0,0"/>
 
-        <Button Text="Proximo"
+        <Button Text="Checar o corpo"
                 FontFamily="Rogerio"
                 Margin="0,385,0,0"
-                Clicked="proximo6"
+                HeightRequest="60"
+                BackgroundColor="#1b6689"/>
+
+        <Button Text="Checar a janela"
+                FontFamily="Rogerio"
+                Margin="0,520,0,0"
                 HeightRequest="60"
                 BackgroundColor="#1b6689"/>
 

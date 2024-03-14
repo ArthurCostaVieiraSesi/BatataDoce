@@ -38,6 +38,7 @@
         <Button Text="Proximo"
                 FontFamily="Rogerio"
                 Margin="0,385,0,0"
+                Clicked="proximo5"
                 HeightRequest="60"
                 BackgroundColor="#1b6689"/>
 

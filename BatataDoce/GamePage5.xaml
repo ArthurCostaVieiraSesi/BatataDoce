@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BatataDoce.GamePage4c"
+             x:Class="BatataDoce.GamePage5"
              Shell.NavBarIsVisible="false"
              BackgroundColor="#00001c">
 
     <Grid>
         
-        <Image Source="loja.jpg"
+        <Image Source="casa.jpg"
                 Aspect="AspectFit"
                 VerticalOptions="Start"
                 Margin="0,60,0,0"/>
@@ -41,10 +41,10 @@
                 Margin="220,180,0,0"/>
 
         <Label x:Name="Descricao"
-                Text="Bia: Comprou o que precisa? Ótimo, agora podemos ir para a cena do crime, o caminho é longo então melhor nos apressarmos."
+                Text="Bia: Finalmente chegamos na cena, o corpo em questão era de um de nossos amigos, o Jonas. Ele estava voltando de um dia coletando lenha, porém quando chegou em casa algo quebrou a janela e... Enfim fique a vontade para investigar"
                 FontFamily="Rogerio"
                 TextColor="#ee5882"
-                Padding="5,20,5,0"
+                Padding="5,10,5,0"
                 HorizontalTextAlignment="Center"
                 VerticalOptions="Start"
                 BackgroundColor="#1f374c"
@@ -54,7 +54,7 @@
         <Button Text="Proximo"
                 FontFamily="Rogerio"
                 Margin="0,385,0,0"
-                Clicked="proximo6"
+                Clicked="proximo7"
                 HeightRequest="60"
                 BackgroundColor="#1b6689"/>
 

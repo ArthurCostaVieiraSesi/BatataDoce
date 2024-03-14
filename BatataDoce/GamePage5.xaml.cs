@@ -1,10 +1,10 @@
 namespace BatataDoce;
 
-public partial class GamePage4c : ContentPage
+public partial class GamePage5 : ContentPage
 {
 
 
-	public GamePage4c()
+	public GamePage5()
 	{
 		InitializeComponent();
 		if((App.Current as App).TemLanterna==true)
@@ -14,9 +14,9 @@ public partial class GamePage4c : ContentPage
 			imgmachado.IsVisible=true;
 	}
 
-	void proximo6(object sender, EventArgs args)
+    void proximo7(object sender, EventArgs args)
 	{
-		Application.Current.MainPage = new GamePage5();
+		Application.Current.MainPage = new GamePage6();
 	}
 
 }
