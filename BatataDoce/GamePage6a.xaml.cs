@@ -1,10 +1,10 @@
 namespace BatataDoce;
 
-public partial class GamePage6 : ContentPage
+public partial class GamePage6a : ContentPage
 {
 
 
-	public GamePage6()
+	public GamePage6a()
 	{
 		InitializeComponent();
 		if((App.Current as App).TemLanterna==true)
@@ -12,11 +12,10 @@ public partial class GamePage6 : ContentPage
 
 		if((App.Current as App).TemMachado==true)
 			imgmachado.IsVisible=true;
-	}
 
-	void janela(object sender, EventArgs args)
-	{
-		Application.Current.MainPage = new GamePage6a();
+        InitializeComponent();
+		if((App.Current as App).TemLanterna==true)
+			botaolanterna.IsVisible=true;
 	}
 
 }
