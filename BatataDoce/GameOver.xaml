@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BatataDoce.GameOver"
+             Shell.NavBarIsVisible="false"
+             BackgroundColor="#00001c">
+
+    <Grid>
+
+        <Image Source="gameover.webp"
+                Aspect="AspectFit"
+                VerticalOptions="Start"
+                Margin="0,60,0,0"/>
+
+
+        <Label x:Name="Descricao"
+                Text="Você falhou, e encontrou a morte. Tente ser melhor em outra vida, para não falhar como falhou aqui."
+                FontFamily="Rogerio"
+                TextColor="White"
+                Padding="5,20,5,0"
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Start"
+                BackgroundColor="#1f374c"
+                HeightRequest="100"
+                Margin="0,400,0,0"/>
+
+        <Button Text="Voltar ao inicio"
+                FontFamily="Rogerio"
+                Clicked="VoltarInicio"
+                Margin="0,385,0,0"
+                HeightRequest="60"
+                BackgroundColor="#1b6689"/>
+
+
+    </Grid>
+
+</ContentPage>

@@ -14,9 +14,14 @@ public partial class GamePage6 : ContentPage
 			imgmachado.IsVisible=true;
 	}
 
-	void janela(object sender, EventArgs args)
+	void Janela(object sender, EventArgs args)
 	{
 		Application.Current.MainPage = new GamePage6a();
+	}
+
+	void Corpo(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new GamePage6c();
 	}
 
 }

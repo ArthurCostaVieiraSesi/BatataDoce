@@ -45,8 +45,9 @@
                 HeightRequest="100"
                 Margin="0,400,0,0"/>
 
-        <Button Text="Proximo"
+        <Button Text="Voltar"
                 FontFamily="Rogerio"
+                Clicked="Voltar1"
                 Margin="0,385,0,0"
                 HeightRequest="60"
                 BackgroundColor="#1b6689"/>
@@ -54,6 +55,7 @@
         <Button Text="Usar lanterna"
                 FontFamily="Rogerio"
                 x:Name="botaolanterna"
+                Clicked="UsarLanterna"
                 IsVisible="false"
                 Margin="0,520,0,0"
                 HeightRequest="60"

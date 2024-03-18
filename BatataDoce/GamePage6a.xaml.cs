@@ -13,9 +13,18 @@ public partial class GamePage6a : ContentPage
 		if((App.Current as App).TemMachado==true)
 			imgmachado.IsVisible=true;
 
-        InitializeComponent();
 		if((App.Current as App).TemLanterna==true)
 			botaolanterna.IsVisible=true;
+	}
+
+	void UsarLanterna(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new GamePage6b();
+	}
+
+	void Voltar1(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new GamePage7();
 	}
 
 }

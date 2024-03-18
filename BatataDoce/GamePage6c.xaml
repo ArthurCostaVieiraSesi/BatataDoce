@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BatataDoce.GamePage6"
+             x:Class="BatataDoce.GamePage6c"
              Shell.NavBarIsVisible="false"
              BackgroundColor="#00001c">
 
@@ -35,7 +35,7 @@
                 Margin="0,180,220,0"/>
 
         <Label x:Name="Descricao"
-                Text="Quando você chega no quarto, você vê o corpo morto no chão e também é possivel ver a janela quebrada de onde, segundo Bia, o lobisomem atacou. O que investigar primeiro?"
+                Text="Quando você investiga o corpo, você percebe os diversos machucados em formatos de garras no corpo. Além disso você encontra um pedaço de roupa que não pertence a vitima, você pega ele."
                 FontFamily="Rogerio"
                 TextColor="White"
                 Padding="5,20,5,0"
@@ -45,17 +45,10 @@
                 HeightRequest="100"
                 Margin="0,400,0,0"/>
 
-        <Button Text="Checar o corpo"
+        <Button Text="Voltar"
                 FontFamily="Rogerio"
-                Clicked="Corpo"
                 Margin="0,385,0,0"
-                HeightRequest="60"
-                BackgroundColor="#1b6689"/>
-
-        <Button Text="Checar a janela"
-                FontFamily="Rogerio"
-                Margin="0,520,0,0"
-                Clicked="Janela"
+                Clicked="Voltar3"
                 HeightRequest="60"
                 BackgroundColor="#1b6689"/>
 

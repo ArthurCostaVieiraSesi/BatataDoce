@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BatataDoce.GamePage6"
+             x:Class="BatataDoce.GamePage6b"
              Shell.NavBarIsVisible="false"
              BackgroundColor="#00001c">
 
     <Grid>
         
-        <Image Source="casa.jpg"
+        <Image Source="floresta.jpg"
                 Aspect="AspectFit"
                 VerticalOptions="Start"
                 Margin="0,60,0,0"/>
@@ -35,27 +35,27 @@
                 Margin="0,180,220,0"/>
 
         <Label x:Name="Descricao"
-                Text="Quando você chega no quarto, você vê o corpo morto no chão e também é possivel ver a janela quebrada de onde, segundo Bia, o lobisomem atacou. O que investigar primeiro?"
+                Text="Ao iluminar a floresta através da janela, você consegue enxergar grandes pegadas de lobo, sangue e um pedaço de tecido no chão, você pega o tecido. Parece que as pegadas estão em ambas direções, o lobisomem fugiu por onde entrou. Adentrar mais a floresta?"
                 FontFamily="Rogerio"
                 TextColor="White"
-                Padding="5,20,5,0"
+                Padding="5,10,5,0"
                 HorizontalTextAlignment="Center"
                 VerticalOptions="Start"
                 BackgroundColor="#1f374c"
                 HeightRequest="100"
                 Margin="0,400,0,0"/>
 
-        <Button Text="Checar o corpo"
+        <Button Text="Seguir as pegadas"
                 FontFamily="Rogerio"
-                Clicked="Corpo"
+                Clicked="Burro"
                 Margin="0,385,0,0"
                 HeightRequest="60"
                 BackgroundColor="#1b6689"/>
 
-        <Button Text="Checar a janela"
+        <Button Text="Voltar"
                 FontFamily="Rogerio"
+                Clicked="Voltar2"
                 Margin="0,520,0,0"
-                Clicked="Janela"
                 HeightRequest="60"
                 BackgroundColor="#1b6689"/>
 
