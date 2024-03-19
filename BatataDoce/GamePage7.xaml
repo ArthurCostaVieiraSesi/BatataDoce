@@ -53,6 +53,7 @@
 
         <Button Text="Mostrar tecido"
                 FontFamily="Rogerio"
+                Clicked="Tecido"
                 Margin="0,385,0,0"
                 HeightRequest="60"
                 BackgroundColor="#1b6689"/>

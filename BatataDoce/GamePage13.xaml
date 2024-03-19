@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BatataDoce.GamePage6a"
+             x:Class="BatataDoce.GamePage13"
              Shell.NavBarIsVisible="false"
              BackgroundColor="#00001c">
 
     <Grid>
         
-        <Image Source="casa.jpg"
+        <Image Source="mao.webp"
                 Aspect="AspectFit"
                 VerticalOptions="Start"
                 Margin="0,60,0,0"/>
@@ -28,14 +28,8 @@
                 Margin="0,10,280,0"
                 HeightRequest="45"/>
 
-        <Image Source="roberto.png"
-                Aspect="AspectFit"
-                VerticalOptions="Start"
-                HeightRequest="300"
-                Margin="0,180,220,0"/>
-
         <Label x:Name="Descricao"
-                Text="Na janela, você percebe mais claramente alguns cacos de vidro e poças de sangue, sangue esse que claramente não é da vitima. Além disso, através da janela você percebe a floresta vasta e escura, talvez com uma lanterna você possa ver mais..."
+                Text="Com um rosto assustado, você vê Bia sendo acertada pelas garras do lobisomem violentamente enquanto ela cai no chão, morta. Você está tremendo, seu corpo se enche de raiva e de medo. Porém qual vai te dominar?"
                 FontFamily="Rogerio"
                 TextColor="White"
                 Padding="5,10,5,0"
@@ -45,21 +39,20 @@
                 HeightRequest="100"
                 Margin="0,400,0,0"/>
 
-        <Button Text="Voltar"
+        <Button Text="A RAIVA TE DOMINA"
                 FontFamily="Rogerio"
-                Clicked="Voltar1"
                 Margin="0,385,0,0"
+                Clicked="raiva"
                 HeightRequest="60"
-                BackgroundColor="#1b6689"/>
+                BackgroundColor="#73120b"/>
 
-        <Button Text="Usar lanterna"
+        <Button Text="O MEDO TE CONTROLA"
                 FontFamily="Rogerio"
-                x:Name="botaolanterna"
-                Clicked="UsarLanterna"
-                IsVisible="false"
+                Clicked="medo"
                 Margin="0,520,0,0"
                 HeightRequest="60"
-                BackgroundColor="#661162"/>
+                BackgroundColor="#3c0c5c"/>
+
 
 
     </Grid>

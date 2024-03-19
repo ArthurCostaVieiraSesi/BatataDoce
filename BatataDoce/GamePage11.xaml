@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BatataDoce.GamePage6a"
+             x:Class="BatataDoce.GamePage11"
              Shell.NavBarIsVisible="false"
              BackgroundColor="#00001c">
 
     <Grid>
         
-        <Image Source="casa.jpg"
+        <Image Source="taverna.jpg"
                 Aspect="AspectFit"
                 VerticalOptions="Start"
                 Margin="0,60,0,0"/>
@@ -34,10 +34,16 @@
                 HeightRequest="300"
                 Margin="0,180,220,0"/>
 
+        <Image Source="bia.png"
+                Aspect="AspectFit"
+                VerticalOptions="Start"
+                HeightRequest="300"
+                Margin="220,180,0,0"/>
+
         <Label x:Name="Descricao"
-                Text="Na janela, você percebe mais claramente alguns cacos de vidro e poças de sangue, sangue esse que claramente não é da vitima. Além disso, através da janela você percebe a floresta vasta e escura, talvez com uma lanterna você possa ver mais..."
+                Text="Bia: Samuel nao temos tempo! Ah eu contratei esse homem para investigar aquilo que aconteceu, agora descobrimos que um lobisomem está chegando até aqui! Precisamos nos defender dele e tentar lutar ou algo do ti-"
                 FontFamily="Rogerio"
-                TextColor="White"
+                TextColor="#ee5882"
                 Padding="5,10,5,0"
                 HorizontalTextAlignment="Center"
                 VerticalOptions="Start"
@@ -45,21 +51,12 @@
                 HeightRequest="100"
                 Margin="0,400,0,0"/>
 
-        <Button Text="Voltar"
+        <Button Text="Bia?"
                 FontFamily="Rogerio"
-                Clicked="Voltar1"
                 Margin="0,385,0,0"
+                Clicked="Morta"
                 HeightRequest="60"
                 BackgroundColor="#1b6689"/>
-
-        <Button Text="Usar lanterna"
-                FontFamily="Rogerio"
-                x:Name="botaolanterna"
-                Clicked="UsarLanterna"
-                IsVisible="false"
-                Margin="0,520,0,0"
-                HeightRequest="60"
-                BackgroundColor="#661162"/>
 
 
     </Grid>

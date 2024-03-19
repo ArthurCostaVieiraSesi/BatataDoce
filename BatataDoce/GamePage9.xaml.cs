@@ -1,10 +1,10 @@
 namespace BatataDoce;
 
-public partial class GamePage7 : ContentPage
+public partial class GamePage9 : ContentPage
 {
 
 
-	public GamePage7()
+	public GamePage9()
 	{
 		InitializeComponent();
 		if((App.Current as App).TemLanterna==true)
@@ -15,9 +15,10 @@ public partial class GamePage7 : ContentPage
 
 	}
 
-	void Tecido(object sender, EventArgs args)
+    void Sim(object sender, EventArgs args)
 	{
-		Application.Current.MainPage = new GamePage8();
+		Application.Current.MainPage = new GamePage10();
 	}
+
 
 }

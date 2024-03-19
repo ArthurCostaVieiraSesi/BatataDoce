@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BatataDoce.FinalPage"
+             Shell.NavBarIsVisible="false"
+             BackgroundColor="#00001c">
+
+    <Grid>
+
+        <Image Source="final1.webp"
+                Aspect="AspectFit"
+                VerticalOptions="Start"
+                Margin="0,60,0,0"/>
+
+
+        <Label x:Name="Descricao"
+                Text="Você decidiu fugir em desespero após encontrar o lobisomem, você deixou todos daquela vila serem mortos cruelmente por aquele monstro. Você se orgulha disso??"
+                FontFamily="Rogerio"
+                TextColor="White"
+                Padding="5,20,5,0"
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Start"
+                BackgroundColor="#1f374c"
+                HeightRequest="100"
+                Margin="0,400,0,0"/>
+
+        <Button Text="Voltar ao inicio"
+                FontFamily="Rogerio"
+                Clicked="VoltarInicio1"
+                Margin="0,385,0,0"
+                HeightRequest="60"
+                BackgroundColor="#1b6689"/>
+
+
+    </Grid>
+
+</ContentPage>
