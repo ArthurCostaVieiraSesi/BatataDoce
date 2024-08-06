@@ -7,6 +7,8 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
+		(App.Current as App).TemLanterna=false;
+		(App.Current as App).TemMachado=false;
 	}
 
 	void QuandoClicarNoBotao(object sender, EventArgs args)
